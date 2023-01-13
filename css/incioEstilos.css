@@ -1,0 +1,200 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body,html{
+	background-color: #FFFF;
+}
+
+h1{
+	font-family: 'Cabin', sans-serif;
+	text-transform: uppercase;
+	font-size: 50px;
+	color: #00000;
+}
+
+
+
+/*----------------------- MENU ---------------------------*/
+#menu{
+	position: sticky;
+	top: 0;
+	z-index: 2;
+}
+
+.navbar{
+	background-color: #16161D;
+}
+
+.navbar-brand{
+	color: white !important;
+	font-size: 30px;
+}
+
+.navbar li a{
+	color:white !important;
+	font-size: 30px;
+	float: right;
+}
+
+.navbar-nav li{
+	padding: 0 14px;
+}
+
+.fa-bars{
+	color: white;
+}
+/*----------------------- SECCION PRINCIPAL -----------------------*/
+
+#principal{
+	background-color: #16161D;
+}
+
+.central-imagen{
+	height: 70vh;
+	margin-top: 20px;
+	width: auto;
+
+}
+
+.central-h1{
+	font-weight: bold;
+	margin-top: 100px;
+	color: #FFFF;
+}
+
+.central-p{
+	color: #FFF;
+	font-size: 20px;
+}
+
+
+.ola{
+	height: 15vh;
+	width: 100%;
+}
+
+/*----------------------- SECCION SERVICIOS -----------------------*/
+
+#servicios{
+
+	height: 90vh;
+	width: 100%;
+}
+
+.servicios-h1{
+	font-size: 50px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.flag{
+	height: 50%;
+	width: 100%;
+}
+
+
+.btn-primary{
+	margin-top: 10px;
+
+}
+
+.servicios-h3{
+	margin-top: 30px;
+}
+
+.servicios-p{
+	text-align: center;
+	font-size: 30px;
+}
+
+/*----------------------- SECCION TABLA -----------------------*/
+
+
+#finalxd{
+	height: 30vh;
+	background-color: #16161D;
+	color: white;
+	display: block;
+}
+
+.footer-title{
+	margin-top: 15px;
+}
+
+a{
+	padding: 0px 10px;
+}
+
+
+.facebook-icon{
+	color:#4267B2;
+}
+.twitter-icon{
+	color:#1DA1F2;
+}
+.youtube-icon{
+	color:#FF0000;
+}
+
+
+/*----------------------- MODO RESPONSIVE ADAPTIVO -----------------------*/
+
+@media only screen and (max-width: 600px) {
+
+	/*--------------- SECCION PRINCIPAL ---------------*/
+
+	.central-imagen{
+		height: 50vh;
+		max-width: 100%;
+		margin-top: 10px;
+	}
+
+	.central-h1{
+		font-size: 50px;
+		margin-top: 0;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+
+	.btn-primary{
+		margin-top: 20px;
+	}
+
+	.ola{
+		height: 10vh;
+		width: 100%;
+	}
+
+
+	/*--------------- SECCION SERVICIOS ---------------*/
+
+	#servicios{
+		height: 100%;
+	}
+	.servicios-h3{
+		margin-top: 10px;
+	}
+	/*--------------- SECCION SERVICIOS ---------------*/
+
+	#mejores{
+		height: 100%;
+
+	}
+
+	.mejores-h1{
+		margin-top: 0px;
+		text-align: center;
+	}
+
+	.mejores-h3{
+		text-align: center;
+	}
+
+	/*--------------- FOOTER---------------*/	
+	
+	
+
+
+
+}
